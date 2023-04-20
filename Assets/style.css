@@ -3,3 +3,9 @@ nav ul li {
     display: inline;
     padding-left: 20px;
 }
+
+.notification{
+    height: 25px;
+    background: lightblue
+}
+]
