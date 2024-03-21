@@ -1,11 +1,50 @@
 
-nav ul li {
-    display: inline;
-    padding-left: 20px;
+body {
+    margin: 0;
+}
+h1 {
+    margin: 0;
 }
 
-.notification{
-    height: 25px;
-    background: lightblue
+nav {
+    display: flex;
+    justify-content: space-between;
+
 }
-]
+
+nav ul {
+    display: flex;
+
+}
+
+nav ul li {
+    padding-left:  20px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.notification {
+    height: 25px;
+    background: teal;
+    color: white;
+    text-align: center;
+}
+
+.hero {
+    height: 500px;
+    background: white;
+}
+
+.products {
+    background: teal;
+    display: flex;
+    justify-content: center;
+}
+
+.products div {
+    height: 200px;
+    padding-top: 30px;
+}
